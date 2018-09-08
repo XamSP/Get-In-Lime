@@ -1,0 +1,119 @@
+/* TOMMY STYLES */
+
+.logo {
+color: #0F5A47}
+
+.philosophy-images {
+    text-align: center; 
+
+}
+
+.lik {
+    color: #0060B6;
+    text-decoration: none;
+}
+
+.bgm {
+    background-image: url('./images/granite.png');
+    
+}
+
+.border-line {
+    background-color: #0F5A47;
+    height: 40px;
+}
+
+.testimonial-header {
+    align-content: center;
+}
+
+.testimonials{
+    align-content: center; 
+    /* padding:   2em; */
+}
+
+.testimonial-box {
+    /* border: 1px solid black; */
+    padding: 1em;
+}
+
+.philosophy {
+    background-color: #fafafa;
+    width: 110%
+
+}
+.footer {
+    background-color: #0F5A47;
+    margin: auto;
+    padding: 1em;
+    align-content: center;
+    color: whitesmoke;
+}
+
+.sub-footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #429B85;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+label {
+    padding: 0 1em;
+    font-size: 16px;
+}
+
+.footer-logo {
+    font-size: 20px;
+
+}
+
+.sub-footer a:link {
+    text-decoration: none;
+}
+
+
+#firstCarouselC {
+    background-color: #429B85;    
+}
+
+#secondCarouselC {
+    background-color: #0F5A47;
+}
+
+.button-shop {
+    padding: 1em;
+    border: none;
+    outline: none;
+    
+}
+
+
+.navbar{
+    background-color: black;
+    color:#0F5A47;
+  }
+  
+  
+  .first-section{
+    width: 100%;
+    /* background-image: url("https://files.slack.com/files-pri/T02CQ4EN4-FCPUJ2129/granite.png"); */
+    color: #0F5A47;    
+    background-image: "./images/granite.png"
+  }
+  
+  .first-fruit{
+    height: 400px;
+    text-align: center;
+    
+  }
+
+  .philosophy{
+    color:#0F5A47;
+  }
+
+  .btn-light{
+    color:#0F5A47;      
+  }
+
+ 

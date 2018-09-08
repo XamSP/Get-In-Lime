@@ -9,38 +9,98 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
 
-    <title>Hello, world!</title>
+    <title>Kale'd</title>
 </head>
 
 <body>
 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <!-- first Section Victor -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent bg-dark">
+        <a class="navbar-brand logo" href="#">KALE'D</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Shop<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Why Kale'D</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Benefits</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Benefits</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Community</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid first-section p-5 main bgm">
+        <div class="row align-items-center">
+            <!-- <div class="col-sm-3"></div> -->
+            <div class="col-sm-6  justify-content-center"><img src="./images/KALE'D-Juice.png" class="first-fruit justify-content-center align-self-center mx-auto"
+                    alt=""></div>
+            <!-- <div class="col-sm-3"></div> -->
+            <div class="col-sm-6 align-self-center">
+                <h1>Find our wide array of kale Juices</h1>
+                <p>We make all of our juices withe the highest quality of kale, making sure that you have the most energy
+                    for each day</p>
+                <button type="button" class="btn btn-light mt-3">Order Now!</button></div>
+        </div>
+    </div>
+
+
+
+
+
+    <!--  Max - Carousels  -->
     <div id="max" class="container-fluid">
         <div class="row">
-            <div class="col-sm-6">
-                <div id="firstCarousel" class="carousel slide" data-ride="carousel">
+            <div id="firstCarouselC" class="col-sm-6">
+                <div id="firstCarousel" class="carousel slide p-3" data-ride="carousel">
                     <div class="carousel-inner center-block">
                         <div class="carousel-item active">
-                            <img class="d-block w-40 hx mx-auto" src="./images/kale.png" style="height: 300px; width: 400px;" alt="First slide">
+                            <img class="d-block w-40 hx mx-auto" src="./images/doritos.png" style="height: 300px; width: 400px;" alt="First slide">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>...</h5>
-                                <p>...</p>
+                                <h5></h5>
+
+
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-40 hx mx-auto" src="./images/blueberry.png" style="height: 300px; width: 400px;" alt="Second slide">
+                            <img class="d-block w-40 hx mx-auto" src="./images/kale salad.png" style="height: 300px; width: 400px;" alt="Second slide">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>...</h5>
-                                <p>...</p>
+                                <h5></h5>
+
+
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <!-- <div class="carousel-item">
                             <img class="d-block w-40 hx mx-auto" src="./images/flaxseed.png" style="height: 300px; width: 400px;" alt="Third slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>...</h5>
                                 <p>...</p>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                     <a class="carousel-control-prev" href="#firstCarousel" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -52,53 +112,154 @@
                     </a>
                 </div>
             </div>
-            <div class="col-sm-6">
-                <div id="secondCarousel" class="carousel slide" data-ride="carousel">
+            <div class="col-sm-6" id="secondCarouselC">
+                <div id="secondCarousel" class="carousel slide p-3" data-ride="carousel">
                     <div class="carousel-inner center-block">
-                        <div class="carousel-item active">
-                            <img class="d-block mx-auto" src="./images/blueberry.png" style="height: 300px; width: 400px;" alt="First slide">
+                        <!-- <div class="carousel-item active">
+                            <img class="d-block mx-auto" src="./images/kalechips.png" style="height: 300px; width: 400px;" alt="First slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>...</h5>
                                 <p>...</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block mx-auto" src="./images/flaxseed.png" style="height: 300px; width: 400px;" alt="Second slide">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>...</h5>
-                                <p>...</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block mx-auto" src="./images/kale.png" style="height: 300px; width: 400px;" alt="Third slide">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>...</h5>
-                                <p>...</p>
-                            </div>
+                            </div> -->
+                    </div>
+                    <div class="carousel-item active">
+                        <img class="d-block mx-auto" src="./images/kalechips.png" style="height: 300px; width: 400px;" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5></h5>
+
+
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#secondCarousel" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#secondCarousel" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                    <div class="carousel-item">
+                        <img class="d-block mx-auto" src="./images/kale.png" style="height: 300px; width: 400px;" alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5></h5>
+
+
+                        </div>
+                    </div>
                 </div>
+                <a class="carousel-control-prev" href="#secondCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#secondCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
         </div>
     </div>
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
+
+
+
+
+
+    <!-- PHILOSOPHY -->
+
+    <div class="philosophy container-fluid row">
+        <div class="col-sm-5 row ">
+            <div>
+                <img style="width:100%;" src="./images/Icons.png">
+            </div>
+
+
+        </div>
+
+        <div class="col-sm-7">
+
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <h2 style="margin-bottom: 20px">Our Benefits</h2>
+
+            <div class="col-sm-12 row">
+                <div class="col-sm-12 row">
+                    <ul>
+                        <li style="margin-bottom: 40px"> KALE is the most nutrient rich dense green leafed vegetable. It
+                            aids in blood clotting, promotes healthy vision, and fights cancer
+                        </li>
+                        <li style="margin-bottom: 40px"> KALE has more iron than beef, has more calcium than milk, 10x more
+                            vitamin C than Spinach
+                        </li>
+                        <li style="margin-bottom: 40px"> KALE increases metabolism, has anti-aging properties, and DNA repair
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- TESTIMONIALS -->
+    <br>
+    <br>
+    <div class="testimonial-header ">
+        <h2 style="text-align: center;">Customer Testimonials</h2>
+    </div>
+    <div class="testimonials row ">
+
+        <div class="col-sm-4 ">
+            <div class="testimonial-box ">
+
+                <img style="width:100%;" src="./images/headshot.jpeg">
+
+            </div>
+        </div>
+        <div class="col-sm-4 ">
+            <div class="testimonial-box ">
+                <img style="width:100%;" src="./images/headshot3.jpeg">
+
+            </div>
+        </div>
+        <div class="col-sm-4 ">
+            <div class="testimonial-box ">
+                <img style="width:100%;" src="./images/headshot.jpeg">
+
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!-- FOOTER -->
+    <div class="footer p-5">
+        <div class="input-group mb-3 col-sm-10 ">
+            <label>Join Our Community </label>
+            <input type="text " class="form-control " placeholder="Your Email " aria-label="Recipient 's username" aria-describedby="button-addon2">
+            <div class="input-group-append">
+                <button class="btn btn btn-light" type="button" id="button-addon2">JOIN US</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- SUB FOOTER -->
+    <div class="sub-footer row">
+        <div class="col-sm-3">
+            <span class="footer-logo li"> KALE'D</span>
+        </div>
+        <div class="col-sm-3">
+            <p>Shop</p>
+        </div>
+        <div class="col-sm-3">
+            <!-- <a href="#">QuickLinks</a> -->
+            <p>QuickLinks</p>
+
+        </div>
+        <div class="col-sm-3">
+            <p>Community</p>
+
+        </div>
+    </div>
+
+
+
 </body>
 
-</html>
+<script type="text/javascript" src="index.js">
+
+</html >

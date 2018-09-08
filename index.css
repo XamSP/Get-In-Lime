@@ -1,0 +1,26 @@
+
+.philosophy-images {
+    align-content: center; 
+
+}
+
+.testimonials{
+    align-content: center; 
+}
+
+.testimonial-box {
+    border: 1px solid black;
+    padding: 2em;
+}
+
+.footer {
+    background: salmon;
+    margin: auto;
+    padding: 1em;
+    align-content: center
+}
+
+.sub-footer {
+    text-align: center;
+    padding: 1em;
+}
